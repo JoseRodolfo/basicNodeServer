@@ -1,0 +1,6 @@
+Here we our goal is to learn to create a local server using nodejs, parsing data from an input field, then buffering it and converting it into a string.
+
+We also create three routes
+-our '/' is our home route it includes a greeting and an input field that POST into our '/create-user'
+-we created '/users' to demonstrate how we can create different routes and use them in our browser
+- '/create-user' is where our input from '/' is posted and where we parsed, buffered and converted to string so we could view it on our console log
